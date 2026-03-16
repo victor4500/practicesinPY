@@ -5,3 +5,5 @@ valor2 = int  (input("o outro valor: "))
 subtração = (valor1 - valor2 )
 
 print (f'valor que vc teve no final é: {subtração}')
+
+print('obrigado por me usar')
