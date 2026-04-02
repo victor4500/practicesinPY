@@ -20,3 +20,4 @@ elif imcfinal > 30:
     print("ta gordão, tem que fazer alguma coisa agora antes que seja tarde dmias")
 
 print("obrigado por me utilizar :) ")
+print("por favor, se cuide, uma bom trenio as vezes ajuda bastante no dia a dia")
