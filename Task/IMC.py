@@ -18,4 +18,5 @@ elif imcfinal <= 29.9:
     print("vc ta com sobrepeso, seria bom dar uma olhada em receirtas ou até mesmo fazer enxercicios.")
 elif imcfinal > 30:
     print("ta gordão, tem que fazer alguma coisa agora antes que seja tarde dmias")
-    
+
+print("obrigado por me utilizar :) ")
