@@ -1,4 +1,5 @@
 #validador de senhas
+import os
 
 print('uma senha valida seria uma senha que tem no minimo 8 caracteres e uma letra maiuscula e um caractere espcial.')
 
@@ -42,6 +43,14 @@ else:
     print("senha n ta valida fi, faz uma senha decente ai pfvr")
     for erro in erros:
         print("***", erro)
+
+
+def limpar_terminal():
+    os.system("clear")
+
+input("\nPara limpar o terminal precssione ENTRER...")
+limpar_terminal() 
+
 
 #if resltado:
  #   print('a senha valida')
