@@ -8,7 +8,13 @@ chute = int (input("digita o numero que vc acredita que seja: "))
 
 print(f"voce digitou: {chute}")
 
-if chute == numero:
+taCerto = chute == numero
+taMaior = chute > numero
+
+if (taCerto):
     print("vc acertou!!!")
 else:
-    print("vc errou!")
+    if(taMaior):
+        print("vc errou! esta numeros a cima.")
+    else:
+        print("ta errdo! ta com numeros a penos ai.")
